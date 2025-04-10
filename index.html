@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobJungle - Encuentra tu futuro profesional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Rubik', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-950 text-white">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-r from-green-900 via-green-800 to-green-900 text-white min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center">
+    <img src="https://img.freepik.com/free-photo/front-view-queer-students-outdoors_23-2150405197.jpg?t=st=1744295884~exp=1744299484~hmac=e1432acfeb84d4f88ae91344398b969cb1fbcbae39f9d8301a4b24b914c241c0&w=2000" alt="Hero Image" class="absolute inset-0 object-cover w-full h-full opacity-20 z-0">
+    <div class="z-10 max-w-4xl">
+      <img src="https://www.krea.ai/api/img?f=webp&i=https%3A%2F%2Ftest1-emgndhaqd0c9h2db.a01.azurefd.net%2Fimages%2F0ce0d225-6381-4ab5-980d-7103d6f9818d.png" alt="JobJungle Logo" class="mx-auto w-24 h-24 mb-6">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6">Bienvenido a <span class="text-green-400">JobJungle</span></h1>
+      <p class="text-xl md:text-2xl mb-8">Explora tu futuro como si fuera un juego. Micro-desafíos, mundos laborales y descubrimiento inmersivo para saber qué trabajo vibra contigo.</p>
+      <a href="#form" class="bg-white text-green-800 hover:bg-green-600 hover:text-white px-6 py-3 rounded-full font-semibold transition">Empieza tu exploración</a>
+    </div>
+  </section>
+
+  <!-- Sobre JobJungle -->
+  <section class="bg-green-950 py-20 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4">¿Qué es JobJungle?</h2>
+      <p class="text-lg mb-8">JobJungle es una plataforma diseñada para ayudarte a descubrir el trabajo ideal para ti a través de experiencias interactivas y personalizadas. No se trata solo de elegir un rol, sino de sentirlo, vivirlo y entender si realmente encaja contigo.</p>
+      <img src="https://img.freepik.com/free-photo/scene-with-diverse-young-people-being-digital-nomads-working-remotely-from-dreamy-locations_23-2151187821.jpg?t=st=1744295984~exp=1744299584~hmac=84798e394690f128383376dce38196e8ff118c69296dcf008eaa1a1e095ac3e0&w=2000" class="mx-auto rounded-lg shadow-xl max-w-3xl" alt="Nomads" />
+    </div>
+  </section>
+
+  <!-- Experiencias Interactivas -->
+  <section class="bg-gradient-to-br from-green-800 via-green-700 to-green-900 py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Micro-experiencias para explorar tu futuro</h2>
+      <p class="mb-8 text-lg">Ponte en la piel de distintos roles a través de retos, diálogos y mini juegos diseñados por expertos. Aprende haciendo, sintiendo y conectando con cada opción laboral antes de decidir.</p>
+      <img src="https://img.freepik.com/free-photo/close-up-person-working-alternative-energy_23-2149311467.jpg?t=st=1744292937~exp=1744296537~hmac=8752c6233049d1f762ef143f6149b5d2899fcb26ee3e7486cbebfb57e553a388&w=2000" class="rounded-lg shadow-xl mx-auto max-w-4xl" alt="Interactive workspace" />
+    </div>
+  </section>
+
+  <!-- Nuevas Secciones -->
+  <section class="bg-gray-950 py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Conoce sectores que ni sabías que existían</h2>
+      <p class="text-lg mb-8">JobJungle te abre la puerta a profesiones ocultas y sectores emergentes, conectando tus intereses con nuevas oportunidades que aún no están en los radares tradicionales.</p>
+      <img src="https://img.freepik.com/free-photo/financial-concept-with-wooden-cubes-magnifying-glass-grey-background-flat-lay_176474-7674.jpg?uid=R195370504&ga=GA1.1.573270282.1744186293&semt=ais_hybrid&w=740" class="rounded-lg shadow-xl mx-auto max-w-3xl" alt="Profesiones ocultas" />
+    </div>
+  </section>
+
+  <section class="bg-green-900 py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-6">Un espacio donde probar, errar y encontrar</h2>
+      <p class="text-lg">No tomes decisiones basadas solo en tests o descripciones vagas. JobJungle te permite experimentar y descubrir por ti mismo cómo se siente realmente trabajar en diferentes entornos y roles.</p>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="form" class="bg-gray-900 py-20 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">¿Tienes preguntas? ¡Hablemos!</h2>
+      <form action="https://formsubmit.co/francisco.nieto.cortes@gmail.com" method="POST" class="space-y-6">
+        <input type="text" name="name" required placeholder="Nombre" class="w-full p-4 rounded-md bg-gray-800 text-white placeholder-gray-400">
+        <input type="email" name="email" required placeholder="Correo electrónico" class="w-full p-4 rounded-md bg-gray-800 text-white placeholder-gray-400">
+        <textarea name="message" required placeholder="Escribe tu mensaje aquí..." class="w-full p-4 rounded-md bg-gray-800 text-white placeholder-gray-400" rows="6"></textarea>
+        <button type="submit" class="bg-green-700 hover:bg-green-600 transition text-white px-6 py-3 rounded-full font-semibold">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-gray-950 py-6 text-center text-gray-400 text-sm">
+    © 2025 JobJungle. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
